@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
     private int hits = 0;
     public int endurance = 3;
 
-
     public void TakeDamage (int damage) {
         health -= damage;
 
